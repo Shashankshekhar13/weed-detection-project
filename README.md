@@ -123,32 +123,36 @@ EfficientNet-B0 was selected due to its strong **accuracy–efficiency trade-off
 | Macro F1-Score | 88.68% |
 
 ---
-
 ##  Evaluation & Visualizations
 
-### 🔹 Confusion Matrix (Test Set)
+###  Confusion Matrix (Test Set)
 
 Displays class-wise prediction performance and highlights common misclassifications.
 
-![Confusion Matrix](assets/confusion_matrix.png)
+<p align="center">
+  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="450">
+</p>
 
 ---
 
-### 🔹 Training vs Validation Loss (Stage 1 & Stage 2)
+###  Training vs Validation Loss (Stage 1 & Stage 2)
 
-Illustrates convergence behavior and the impact of fine-tuning.
+Shows model convergence behavior and the impact of fine-tuning.
 
-![Training vs Validation Loss](assets/stage1_2_loss_combined.png)
+<p align="center">
+  <img src="assets/stage1_2_loss_combined.png" alt="Training vs Validation Loss" width="450">
+</p>
 
 ---
 
-### 🔹 Training & Validation Accuracy
+###  Training & Validation Accuracy
 
-Shows learning progression during classifier training and fine-tuning stages.
+Illustrates learning progression across classifier training and fine-tuning stages.
 
-![Accuracy Curves](assets/fig1.png)
+<p align="center">
+  <img src="assets/fig1.png" alt="Training and Validation Accuracy" width="450">
+</p>
 
-> **Note:** ROC-AUC analysis is not included, as confusion matrix and class-wise precision/recall provide more interpretable insights for multi-class image classification tasks.
 
 ---
 
