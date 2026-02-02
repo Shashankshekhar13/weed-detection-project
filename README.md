@@ -1,4 +1,4 @@
-# 🌿 AI-Based Weed Detection Using Image Processing
+#  AI-Based Weed Detection Using Image Processing
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red.svg)](https://pytorch.org/)
@@ -31,19 +31,15 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 Weeds significantly impact agricultural productivity by competing with crops for nutrients, water, and sunlight. Manual weed identification is labor-intensive and impractical for large-scale farming.
 
 This project explores **deep learning–based image classification** for automated weed detection using **EfficientNet-B0** and **transfer learning** on real-world agricultural images.
 
-> **Academic Disclaimer**  
-> This project is developed as a **learning-focused academic exercise**.  
-> It is **not** a conference or journal publication and does not claim state-of-the-art performance.
-
 ---
 
-## 🌱 Project Motivation
+##  Project Motivation
 
 The goal of this project is to gain practical experience with:
 
@@ -55,7 +51,7 @@ The goal of this project is to gain practical experience with:
 
 ---
 
-## ⭐ Key Features
+##  Key Features
 
 - Multi-class weed classification (9 classes)
 - EfficientNet-B0 pretrained on ImageNet
@@ -65,7 +61,7 @@ The goal of this project is to gain practical experience with:
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **Dataset:** DeepWeeds (Public Dataset)
 - **Total Images:** 9,603
@@ -76,7 +72,7 @@ The goal of this project is to gain practical experience with:
 
 ---
 
-## 🧪 Methodology
+##  Methodology
 
 1. Dataset cleaning and validation  
 2. Train / Validation / Test split (60 / 20 / 20)  
@@ -87,7 +83,7 @@ The goal of this project is to gain practical experience with:
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Base Model:** EfficientNet-B0 (ImageNet pretrained)
 - **Custom Head:**
@@ -99,7 +95,7 @@ EfficientNet-B0 was selected due to its strong **accuracy–efficiency trade-off
 
 ---
 
-## 🏋️ Training Strategy
+##  Training Strategy
 
 ### Stage 1 – Feature Extraction
 - Backbone frozen
@@ -117,7 +113,7 @@ EfficientNet-B0 was selected due to its strong **accuracy–efficiency trade-off
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric | Score |
 |------|------|
@@ -128,7 +124,7 @@ EfficientNet-B0 was selected due to its strong **accuracy–efficiency trade-off
 
 ---
 
-## 📈 Evaluation & Visualizations
+##  Evaluation & Visualizations
 
 ### 🔹 Confusion Matrix (Test Set)
 
@@ -156,7 +152,7 @@ Shows learning progression during classifier training and fine-tuning stages.
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8+
