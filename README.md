@@ -125,36 +125,66 @@ EfficientNet-B0 was selected due to its strong **accuracy–efficiency trade-off
 ---
 ##  Evaluation & Visualizations
 
+This section presents a detailed visual analysis of the model’s performance on the test dataset.  
+The plots help in understanding **class-wise behavior**, **training stability**, and **generalization performance**.
+
+---
+
 ###  Confusion Matrix (Test Set)
 
-Displays class-wise prediction performance and highlights common misclassifications.
+The confusion matrix provides a **class-wise breakdown of predictions**, where:
+
+- **Diagonal values** represent correctly classified samples.
+- **Off-diagonal values** indicate misclassifications between weed classes.
+
+Key observations:
+- Classes such as **Parkinsonia**, **Siam weed**, and **Rubber vine** show strong diagonal dominance, indicating high classification confidence.
+- Some confusion is observed between visually similar classes such as **Chinee apple** and **Snake weed**, which is expected due to overlapping leaf shapes and textures.
+- The **Negative (background)** class is largely well-separated, showing the model’s ability to distinguish weeds from non-weed vegetation.
+
+This visualization helps identify **which weed species are harder to classify** and guides future improvements.
 
 <p align="center">
-  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="450">
+  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="550">
 </p>
 
 ---
 
 ###  Training vs Validation Loss (Stage 1 & Stage 2)
 
-Shows model convergence behavior and the impact of fine-tuning.
+This plot illustrates the **loss curves** during both training stages:
+
+- **Stage 1 (Feature Extraction):**
+  - The pretrained EfficientNet-B0 backbone is frozen.
+  - Loss decreases steadily, showing that the classifier head learns meaningful representations.
+- **Stage 2 (Fine-Tuning):**
+  - The final convolutional layers are unfrozen.
+  - Training loss decreases further, while validation loss stabilizes.
+
 
 <p align="center">
-  <img src="assets/stage1_2_loss_combined.png" alt="Training vs Validation Loss" width="450">
+  <img src="assets/stage1_2_loss_combined.png" alt="Training vs Validation Loss" width="550">
 </p>
 
 ---
 
 ###  Training & Validation Accuracy
 
-Illustrates learning progression across classifier training and fine-tuning stages.
+This plot shows the **accuracy progression** across both training stages:
+
+- **Stage 1:** Validation accuracy improves steadily as the classifier adapts to weed-specific features.
+- **Stage 2:** Fine-tuning leads to a noticeable accuracy boost, confirming the benefit of unfreezing higher-level layers.
+- Validation accuracy follows the training trend closely, suggesting good generalization.
+
 
 <p align="center">
-  <img src="assets/fig1.png" alt="Training and Validation Accuracy" width="450">
+  <img src="assets/fig1.png" alt="Training and Validation Accuracy" width="550">
 </p>
 
-
 ---
+
+
+
 
 ##  Installation
 
