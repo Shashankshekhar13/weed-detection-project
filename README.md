@@ -11,17 +11,16 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#-overview)
-- [Project Motivation](#-project-motivation)
-- [Key Features](#-key-features)
-- [Dataset](#-dataset)
-- [Methodology](#-methodology)
-- [Model Architecture](#-model-architecture)
-- [Training Strategy](#-training-strategy)
-- [Results](#-results)
-- [Evaluation & Visualizations](#-evaluation--visualizations)
-- [Installation](#-installation)
-
+-  [Overview](#overview)
+- [Project Motivation](#project-motivation)
+- [Key Features](#key-features)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Model Architecture](#model-architecture)
+- [Training Strategy](#training-strategy)
+- [Results](#results)
+- [Evaluation & Visualizations](#evaluation--visualizations)
+- [Installation](#installation)
 ---
 
 ##  Overview
