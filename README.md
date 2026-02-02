@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red.svg)](https://pytorch.org/)
 [![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Image%20Classification-green.svg)](#)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 > **A deep learning–based image classification system for automated weed detection using EfficientNet-B0 and transfer learning, evaluated on the public DeepWeeds dataset.**
 
@@ -21,13 +21,6 @@
 - [Results](#-results)
 - [Evaluation & Visualizations](#-evaluation--visualizations)
 - [Installation](#-installation)
-- [Quick Start](#-quick-start)
-- [Project Structure](#-project-structure)
-- [Limitations](#️-limitations)
-- [Future Work](#-future-work)
-- [Learning Outcomes](#-learning-outcomes)
-- [License](#-license)
-- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -145,7 +138,7 @@ Key observations:
 This visualization helps identify **which weed species are harder to classify** and guides future improvements.
 
 <p align="center">
-  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="550">
+  <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="650">
 </p>
 
 ---
@@ -163,7 +156,7 @@ This plot illustrates the **loss curves** during both training stages:
 
 
 <p align="center">
-  <img src="assets/stage1_2_loss_combined.png" alt="Training vs Validation Loss" width="550">
+  <img src="assets/stage1_2_loss_combined.png" alt="Training vs Validation Loss" width="650">
 </p>
 
 ---
@@ -178,7 +171,7 @@ This plot shows the **accuracy progression** across both training stages:
 
 
 <p align="center">
-  <img src="assets/fig1.png" alt="Training and Validation Accuracy" width="550">
+  <img src="assets/fig1.png" alt="Training and Validation Accuracy" width="650">
 </p>
 
 ---
