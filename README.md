@@ -190,3 +190,4 @@ This plot shows the **accuracy progression** across both training stages:
 ```bash
 git clone https://github.com/Shashankshekhar13/weed-detection-project.git
 cd weed-detection-project
+pip install -r requirements.txt
